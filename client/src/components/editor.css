@@ -1,0 +1,71 @@
+#editor {
+  height: 100vh;
+}
+
+.container {
+  width: 60%;
+  background: #f8f9fa; /* Light gray background */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  margin: 10px auto 10px auto !important;
+  min-height: 100vh;
+}
+
+#editor .ql-toolbar.ql-snow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+  margin: 0 auto;
+  position: sticky;
+  top: 54px;
+  z-index: 11;
+  background: #e9ecef; /* Slightly darker gray */
+  border: none !important;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+#editor .header {
+  height: 50px;
+  background-color: #007bff; /* Bootstrap primary blue */
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+#editor .header .appname {
+  font-family: 'Roboto', sans-serif; /* Changed to Roboto */
+  font-weight: 500; /* Medium weight */
+  color: #ffffff; /* White text */
+}
+
+#editor .logo svg {
+  padding-top: 3px;
+}
+
+body::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  background: #dee2e6; /* Lighter gray for track */
+  border-radius: 5px;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #6c757d; /* Dark gray handle */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* On hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #343a40; /* Darker gray on hover */
+}
